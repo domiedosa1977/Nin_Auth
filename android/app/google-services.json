@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "203365894880",
+    "project_id": "nin-page",
+    "storage_bucket": "nin-page.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203365894880:android:325ff11caee63c60625e85",
+        "android_client_info": {
+          "package_name": "com.dominion.nin_page"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVxj3CDdDypMJyg_TwTXM4b56zfI76PLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203365894880:android:e34ea7788aee73d8625e85",
+        "android_client_info": {
+          "package_name": "com.example.nin__page"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVxj3CDdDypMJyg_TwTXM4b56zfI76PLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203365894880:android:ac2be9a2faa89369625e85",
+        "android_client_info": {
+          "package_name": "com.example.nin_page"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVxj3CDdDypMJyg_TwTXM4b56zfI76PLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
