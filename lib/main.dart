@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:nin__page/features/user_auth/presentation/pages/data_screen_page.dart';
 import 'package:nin__page/features/user_auth/presentation/pages/login_page.dart';
 import 'features/app/splash_screen/splash_screen.dart';
 import 'features/user_auth/presentation/pages/home_page.dart';
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "/home": (context) => HomePage(),
         "/login":(context)=>LoginPage(),
-
+        "/next":(context)=>DataScreenPage(),
       },
     );
   }

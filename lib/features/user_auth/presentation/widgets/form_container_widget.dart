@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class FormContainerWidget extends StatefulWidget {
 
@@ -8,6 +9,7 @@ class FormContainerWidget extends StatefulWidget {
   final String? hintText;
   final String? labelText;
   final String? helperText;
+  final List <TextInputFormatter> ? inputFormatters;
   final FormFieldSetter<String>?onSaved;
   final FormFieldValidator<String>?validator;
   final ValueChanged<String>? onFieldSubmitted;
@@ -25,6 +27,7 @@ class FormContainerWidget extends StatefulWidget {
   this.onFieldSubmitted,
   this.onSaved,
   this.validator,
+    this.inputFormatters
   });
 
   @override
@@ -45,6 +48,9 @@ class _FormContainerWidgetState extends State<FormContainerWidget> {
       ),
       child: new TextFormField(
         style:TextStyle(color: Colors.black),
+        inputFormatters: [
+          LengthLimitingTextInputFormatter(20),
+        ],
         controller: widget.controller,
         keyboardType: widget.inputType,
         key: widget.fieldKey,
